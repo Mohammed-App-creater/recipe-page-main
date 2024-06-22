@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:1955px;
+    background-color: hsl(30, 18%, 87%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+}
+
+main{
+    width: 740px;
+    
+    background-color:  hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 40px;
+}
+main > ol, ul, h1, img, article, hr {
+    margin-bottom: 40px;
+}
+
+img{
+    width: 660px;
+    height: 300px;
+    border-radius: 15px;
+}
+main h2{
+    color: hsl(14, 45%, 36%);
+}
+
+ul{
+    list-style: square;
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 2;
+    list-style-position: inside;
+    
+}
+
+li{
+    padding-left: 5px;
+    color: hsl(30, 10%, 34%);
+}
+
+
+ul li::before{
+    content: "";
+    padding-left: 15px;
+}
+
+li span{
+    color: hsl(24, 5%, 18%);
+    font-weight: 600;
+}
+
+hr{
+    background-color:  hsl(30, 18%, 87%);
+    height: 1px;
+    border: none;
+}
+
+ul.Preparation{
+    background: hsl(330, 100%, 98%);
+    height: 185px;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+
+.Preparation h3{
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+}
+
+.Preparation li{
+    padding-left: 12px;
+}
+
+ol{
+    list-style-position: outside;
+    text-align: justify;
+    padding-left: 25px;
+    line-height: 2;
+}
+
+ol li{
+    padding-left: 15px;
+}
+.olh2{
+    margin-bottom: 15px;
+}
+
+caption{
+    float: left;
+    font-weight: 600;
+    font-size: x-large;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 5px;
+}
+
+table{
+    line-height: 2;
+    text-align: left;
+    color: hsl(30, 10%, 34%);
+}
+
+td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    text-align: left;
+    width: 50%;
+    padding-left: 25px;
+}
+
+td:last-child{
+    color: hsl(14, 45%, 36%);
+}
